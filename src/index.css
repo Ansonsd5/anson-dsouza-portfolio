@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+[data-nav-active="true"]  span:nth-child(2){
+ visibility: hidden;
+ transition: all 0.01s ease-in;
+}
+
+[data-nav-active="true"] > span{
+  position: absolute;
+  width: 32px;
+  transition: all 0.35s ease-in;
+}
+
+[data-nav-active="true"]  span:nth-child(1){
+  transform: rotate(45deg);
+  transition: all 0.35s ease-in;
+ }
+
+ [data-nav-active="true"]  span:nth-child(3){
+  transform: rotate(130deg);
+  transition: all 5sec ease-in;
+ }
+
+ [data-nav-active="false"] >span{
+  transition: all 0.1s ease-in;
+ }
