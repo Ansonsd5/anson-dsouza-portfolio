@@ -3,9 +3,11 @@ import logosvg from "./logo.svg";
 import miniflixbanner from "./minifilxbanner2x.png";
 import githubicon from "./github.svg";
 import externallink from "./externallink.svg";
+import youtubebanner from "./youtubebanner.png";
 
 const projectBanner = {
   miniflixbanner,
+ 
 };
 
 const socialLinks = {
@@ -13,4 +15,4 @@ const socialLinks = {
   externallink,
 };
 
-export { logopng, logosvg, projectBanner, socialLinks };
+export { logopng, logosvg, projectBanner, socialLinks,youtubebanner };
