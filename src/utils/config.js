@@ -1,4 +1,4 @@
-import { youtubebanner  } from "../images";
+import { socialLinks, youtubebanner  } from "../images";
 
 
 const projectdetails = [
@@ -21,7 +21,34 @@ const projectdetails = [
 
 ];
 
-console.log(projectdetails[1].bannerLink,"Anson");
+const socialConnections = [
+    {
+        platform : "Linkdin",
+        icon : socialLinks.linkdin,
+        link : "https://www.linkedin.com/in/ansonsd/",
+
+    },
+    {
+        platform : "Github",
+        icon : socialLinks.githubicon,
+        link : "https://github.com/Ansonsd5",
+        
+    },
+    {
+        platform : "x",
+        icon : socialLinks.xsvg,
+        link : "https://twitter.com/Anson__Dsouza",
+        
+    },
+    {
+        platform : "Insta",
+        icon : socialLinks.insta,
+        link : "https://www.instagram.com/anson___dsouza",
+        
+    }
+]
+
 export {
     projectdetails,
+    socialConnections,
 }
