@@ -1,39 +1,55 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "SF Mono" sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-[data-nav-active="true"]  span:nth-child(2){
- visibility: hidden;
- transition: all 0.01s ease-in;
+[data-nav-active="true"] span:nth-child(2) {
+  visibility: hidden;
+  transition: all 0.01s ease-in;
 }
 
-[data-nav-active="true"] > span{
+[data-nav-active="true"] > span {
   position: absolute;
   width: 32px;
   transition: all 0.35s ease-in;
 }
 
-[data-nav-active="true"]  span:nth-child(1){
+[data-nav-active="true"] span:nth-child(1) {
   transform: rotate(45deg);
   transition: all 0.35s ease-in;
- }
+}
 
- [data-nav-active="true"]  span:nth-child(3){
+[data-nav-active="true"] span:nth-child(3) {
   transform: rotate(130deg);
   transition: all 5sec ease-in;
- }
+}
 
- [data-nav-active="false"] >span{
+[data-nav-active="false"] > span {
   transition: all 0.1s ease-in;
- }
+}
+
+.my-underline {
+  border-bottom: 1.5px solid #b275e6;
+}
+
+.about-me::before {
+  content: "About Me";
+  position: absolute;
+  top: -18px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.brogrid {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 10px;
+}
