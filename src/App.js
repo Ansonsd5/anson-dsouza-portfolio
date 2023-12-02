@@ -1,8 +1,11 @@
 import "./App.css";
 import About from "./compoents/About";
+import Experience from "./compoents/Experience";
 import Footer from "./compoents/Footer";
 import Header from "./compoents/Header";
 import Projects from "./compoents/Projects";
+import { socialConnections } from "./utils/config";
+
 
 function App() {
   return (
@@ -10,7 +13,8 @@ function App() {
       <Header />
       <About />
       <Projects/>
-      <Footer />
+      <Experience />
+      <Footer linkData={socialConnections}/>
     </div>
   );
 }

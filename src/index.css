@@ -5,7 +5,7 @@ body {
     "SF Mono" sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #0a192f ;
+  background: #0a192f;
   color: rgba(255, 255, 255, 0.614);
 }
 
@@ -61,7 +61,82 @@ code {
   color: #169c65;
 }
 
+.experience::before {
+  content: "Experience";
+  position: absolute;
+  top: -14px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #169c65;
+  margin-top: 4px;
+}
+
 .brogrid {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 10px;
+}
+
+.company-name {
+}
+
+.time-location {
+  /* line-height: 16px; */
+  margin-left: 30px;
+  width: fit-content;
+}
+
+.expericence-wrapper > article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+.expericence-wrapper > article:first-child {
+  margin-top: 14px;
+  background: rgb(0, 255, 38);
+}
+
+.ca, .cx {
+  position: relative;
+}
+
+.ca::after{
+  content: "";
+  width: 2px;
+  height: 88px;
+  position: absolute;
+  margin-left: -20px;
+  background: #169c65;
+  top: 21px;
+  left: 0px;
+}
+
+
+.ca::before,.cx::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -22px;
+  background: #169c65;
+  top: 8px;
+}
+
+.dot::before{
+  content: '';
+  width: 4px;
+  height : 4px;
+  background: #169c65;
+  position: absolute;
+  border-radius: 50%;
+  left: -10px;
+  top: 8px;
+
+}
+
+@media screen and (min-width : 426px) {
+  .ca::after{
+    height: 67px !important;
+  }
+  
 }
