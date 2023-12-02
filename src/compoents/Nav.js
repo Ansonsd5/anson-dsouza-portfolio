@@ -11,9 +11,9 @@ const Nav = () => {
     data-nav-active={navBarActive}
     onClick={()=>navHandle()} 
     >
-        <span className='border-[2px] border-black'></span>
-        <span className='border-[2px] border-black'></span>
-        <span className='border-[2px] border-black'></span>
+        <span className='border-[2px] border-[#169c65]'></span>
+        <span className='border-[2px] border-[#169c65]'></span>
+        <span className='border-[2px] border-[#169c65]'></span>
     </div>
   )
 }

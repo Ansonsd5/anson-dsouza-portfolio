@@ -7,13 +7,13 @@ const About = () => {
         
         <article className='leading-loose mt-6 mb-8'>
         <div className='text '>{ABOUTTEXT.welcomeText}</div>
-        <div>I am<span className='uppercase text-xl my-underline font-semibold ml-3 font-[ui-sans-serif]'>{ABOUTTEXT.myName}</span></div>
+        <div>I am<span className='uppercase text-xl my-underline font-semibold ml-3 text-[#169c65] font-[ui-sans-serif]'>{ABOUTTEXT.myName}</span></div>
         <div className=''>{ABOUTTEXT.empoweringText}</div>
         
         </article>
      
         <article className='p-4  about-me relative'>
-        <div>{SELF_IDENTITY.ABOUTME}</div>
+        <div className='mb-2'>{SELF_IDENTITY.ABOUTME}</div>
         </article>
         
 
