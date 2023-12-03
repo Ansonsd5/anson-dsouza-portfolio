@@ -9,7 +9,7 @@ const Footer = ({ linkData }) => {
             <a href="mailto:ansonsd11@gmail.com" rel="noopener noreferrer" alt="Email Me">ansonsd11@gmail.com</a>
             </div>
         
-            <div className='flex gap-5 py-4'>
+            <div className='flex gap-5 py-4 social-icons'>
               {linkData.map((plat) =>(
                 <div key={plat.platform}>
                   <a href={plat.link}  target="_blank" rel="noopener noreferrer">
@@ -20,7 +20,7 @@ const Footer = ({ linkData }) => {
             </div>
            
         </article>
-        <div className='font-mono font-[14px]'>© 2023 Anson Dsouza. All rights reserved.</div>
+        <div className='font-mono cp-right '>© 2023 Anson Dsouza. All rights reserved.</div>
     </div>
   )
 }
