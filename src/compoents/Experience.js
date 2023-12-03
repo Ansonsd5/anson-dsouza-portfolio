@@ -3,15 +3,16 @@ import React from "react";
 const Experience = () => {
   return (
     <div className="expericence-wrapper p-4 font-mono font-[600] experience relative">
-      <div className="mt-4">
-        <article className="company-name mt-5">
+   
+        <article className="company-name ">
+        <h2 className='text-[24px] leading-10 text-[#169c65]'>Experience</h2>
           <div className="my-underline w-fit">Niveus Solutions</div>
           <div className="time-location">
             <span className="full-time">Full-time 1 yr 5 mos</span>
             <div className="location">Mangaluru, Karnataka, India</div>
           </div>
         </article>
-      </div>
+     
 
       <article className="time-location">
         <div className="ca">Cloud Associate</div>
