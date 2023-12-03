@@ -43,34 +43,6 @@ code {
   border-bottom: 1.5px solid #b275e6;
 }
 
-.about-me::before {
-  content: "About Me";
-  position: absolute;
-  top: -18px;
-  font-size: 24px;
-  line-height: 32px;
-  color: #169c65;
-}
-
-.projects::before {
-  content: "Personal Projects";
-  position: absolute;
-  top: -26px;
-  font-size: 24px;
-  line-height: 32px;
-  color: #169c65;
-}
-
-.experience::before {
-  content: "Experience";
-  position: absolute;
-  top: -14px;
-  font-size: 24px;
-  line-height: 32px;
-  color: #169c65;
-  margin-top: 4px;
-}
-
 .brogrid {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 16px;
@@ -90,16 +62,13 @@ code {
   flex-direction: column;
   margin-bottom: 14px;
 }
-.expericence-wrapper > article:first-child {
-  margin-top: 14px;
-  background: rgb(0, 255, 38);
-}
 
-.ca, .cx {
+.ca,
+.cx {
   position: relative;
 }
 
-.ca::after{
+.ca::after {
   content: "";
   width: 2px;
   height: 88px;
@@ -110,8 +79,8 @@ code {
   left: 0px;
 }
 
-
-.ca::before,.cx::before {
+.ca::before,
+.cx::before {
   content: "";
   width: 6px;
   height: 6px;
@@ -122,29 +91,26 @@ code {
   top: 8px;
 }
 
-.dot::before{
-  content: '';
+.dot::before {
+  content: "";
   width: 4px;
-  height : 4px;
+  height: 4px;
   background: #169c65;
   position: absolute;
   border-radius: 50%;
   left: -10px;
   top: 8px;
-
 }
 
-.cp-right{
-  font-size: 8px ;
+.cp-right {
+  font-size: 8px;
 }
-.social-icons{
+.social-icons {
   justify-content: space-around;
 }
 
-@media screen and (min-width : 426px) {
-  .ca::after{
+@media screen and (min-width: 426px) {
+  .ca::after {
     height: 67px !important;
   }
-  
 }
-
