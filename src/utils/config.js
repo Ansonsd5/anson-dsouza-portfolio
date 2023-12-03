@@ -23,7 +23,7 @@ const projectdetails = [
 
 const socialConnections = [
     {
-        platform : "Linkdin",
+        platform : "Linkedin",
         icon : socialLinks.linkdin,
         link : "https://www.linkedin.com/in/ansonsd/",
 
