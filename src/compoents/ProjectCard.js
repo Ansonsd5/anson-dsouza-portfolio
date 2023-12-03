@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
   } = props.cardData;
 
   return (
-    <div className="card-wrapper border border-[rgb(208, 215, 222)] max-w-[320px] rounded-[7px]">
+    <div className="card-wrapper border border-[rgb(208, 215, 222)] max-w-[320px] rounded-bl-[8px] rounded-br-[8px] mx-auto">
       <div className="flex flex-col">
         <img
           src={bannerLink}
