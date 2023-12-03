@@ -134,6 +134,13 @@ code {
 
 }
 
+.cp-right{
+  font-size: 8px ;
+}
+.social-icons{
+  justify-content: space-around;
+}
+
 @media screen and (min-width : 426px) {
   .ca::after{
     height: 67px !important;
