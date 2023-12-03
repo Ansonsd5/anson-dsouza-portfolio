@@ -43,7 +43,6 @@ const ProjectCard = (props) => {
               <a href={liveLink} target="_blank" rel="noopener noreferrer">
                 <img src={socialLinks.externallink} alt="redirectlink" />
               </a>
-              <img />
             </div>
           </div>
         </div>
