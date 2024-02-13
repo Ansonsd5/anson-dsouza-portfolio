@@ -18,6 +18,14 @@ const projectdetails = [
         liveLink : 'https://netflix-gpt-4e981.web.app/',
         bannerLink : youtubebanner,
     },
+    {
+        projectName : 'ResUp',
+        discription : 'This application will help the user to generate email Subject and body for  refferal. User has to provide the basic inputs, which will be used to generate email templates',
+        techStack : ['React','Tailwind','Redux','Github','openai'],
+        githublink : 'https://github.com/Ansonsd5/resup',
+        liveLink : 'https://res-up.netlify.app/',
+        bannerLink :'https://ik.imagekit.io/ansonsaverdsouza/Screenshot%202024-02-13%20222154.png?updatedAt=1707843421622',
+    },
 
 ];
 
