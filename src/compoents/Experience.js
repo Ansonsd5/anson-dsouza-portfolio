@@ -8,7 +8,7 @@ const Experience = () => {
         <h2 className='text-[24px] leading-10 text-[#169c65]'>Experience</h2>
           <div className="my-underline w-fit">Niveus Solutions</div>
           <div className="time-location">
-            <span className="full-time">Full-time 1 yr 5 mos</span>
+            <span className="full-time">Full-time 2+ years</span>
             <div className="location">Mangaluru, Karnataka, India</div>
           </div>
         </article>

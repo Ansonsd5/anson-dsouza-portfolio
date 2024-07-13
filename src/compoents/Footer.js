@@ -20,7 +20,7 @@ const Footer = ({ linkData }) => {
             </div>
            
         </article>
-        <div className='font-mono cp-right '>© 2023 Anson Dsouza. All rights reserved.</div>
+        <div className='font-mono cp-right '>© 2024 Anson Dsouza. All rights reserved.</div>
     </div>
   )
 }
