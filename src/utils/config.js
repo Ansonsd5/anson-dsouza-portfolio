@@ -26,6 +26,14 @@ const projectdetails = [
         liveLink : 'https://res-up.netlify.app/',
         bannerLink :'https://ik.imagekit.io/ansonsaverdsouza/Screenshot%202024-02-13%20222154.png?updatedAt=1707843421622',
     },
+    {
+        projectName : 'Url Shortner',
+        discription : 'This application helps you keep most important url links in short way with all the statistics of usage',
+        techStack : ['React','Tailwind','Supabase','Shadcn/ui','Github'],
+        githublink : 'https://github.com/Ansonsd5/urlshortner',
+        liveLink : 'https://urlshortner-2gp.pages.dev/',
+        bannerLink :'https://rdvwisouupxagjtdycrv.supabase.co/storage/v1/object/public/profile_pic/Screenshot_2024_07_13_195637.png',
+    },
 
 ];
 
