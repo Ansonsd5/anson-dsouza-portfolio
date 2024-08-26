@@ -29,7 +29,7 @@ const projectdetails = [
     {
         projectName : 'Safe Play',
         discription : 'Good health and wellbeing for children of immigration family',
-        techStack : ['React','Material-ui','Github','netlify'],
+        techStack : ['React','MaterialUI','Github','netlify'],
         githublink : 'https://github.com/Ansonsd5/safeplay/tree/main/safeplay',
         liveLink : 'https://safe-play.netlify.app/',
         bannerLink :'https://ik.imagekit.io/ansonsaverdsouza/Screenshot%202024-08-26%20160447.png?updatedAt=1724668540816',
