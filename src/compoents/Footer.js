@@ -6,7 +6,7 @@ const Footer = ({ linkData }) => {
         <article className='font-mono font-[600] text-center'>
             <div className='uppercase'>Lets Connect</div>
             <div>
-            <a href="mailto:ansonsd11@gmail.com" rel="noopener noreferrer" alt="Email Me">ansonsd11@gmail.com</a>
+            <a href="mailto:anson11sd@gmail.com" rel="noopener noreferrer" alt="Email Me">ansonsd11@gmail.com</a>
             </div>
         
             <div className='flex gap-5 py-4 social-icons'>
