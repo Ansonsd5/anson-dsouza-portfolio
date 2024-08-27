@@ -1,5 +1,5 @@
 const ABOUTTEXT = {
-    welcomeText : "Hello, Welcome to my page",
+    welcomeText : "Hello, Welcome to my page ",
     myName : "Anson Dsouza",
     empoweringText : "I love exploring new things!",
 
