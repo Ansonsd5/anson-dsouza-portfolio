@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Footer = ({ linkData }) => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className='flex items-center justify-center mx-auto flex-col'>
         <article className='font-mono font-[600] text-center'>
@@ -20,7 +21,7 @@ const Footer = ({ linkData }) => {
             </div>
            
         </article>
-        <div className='font-mono cp-right '>© 2024 Anson Dsouza. All rights reserved.</div>
+        <div className='font-mono cp-right '>© {currentYear} Anson Dsouza. All rights reserved.</div>
     </div>
   )
 }
