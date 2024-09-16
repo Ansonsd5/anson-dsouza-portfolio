@@ -40,7 +40,7 @@ const projectdetails = [
         techStack : ['React','Tailwind','Supabase','Shadcn/ui','Github'],
         githublink : 'https://github.com/Ansonsd5/urlshortner',
         liveLink : 'https://urlshortner-2gp.pages.dev/',
-        bannerLink :'https://rdvwisouupxagjtdycrv.supabase.co/storage/v1/object/public/profile_pic/Screenshot_2024_07_13_195637.png',
+        bannerLink :'https://ik.imagekit.io/ansonsaverdsouza/Screenshot%202024-09-16%20212500.png?updatedAt=1726502274433',
     },
 
 ];
