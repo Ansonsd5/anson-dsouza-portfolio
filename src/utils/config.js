@@ -3,6 +3,14 @@ import { socialLinks, youtubebanner  } from "../images";
 
 const projectdetails = [
     {
+        projectName : 'DevTinder',
+        discription : 'A place to connect with all developer network',
+        techStack : ['Node','Express','React','Tailwind','DaisyUI','Redux','Nginx','Aws'],
+        githublink : 'https://github.com/Ansonsd5/devTinderFE',
+        liveLink : 'https://ansonsd.com',
+        bannerLink : "https://ik.imagekit.io/ansonsaverdsouza/Screenshot%20from%202025-05-30%2023-20-35.png?updatedAt=1748627517001"
+    },
+    {
         projectName : 'MiniFlix',
         discription : 'A movie suggestion app which uses the power gpt api. While give the usefull move suggestions based on the user query.',
         techStack : ['React','Tailwind','Tmdb','Firebase','Redux','Gptapi','Github'],
@@ -42,6 +50,7 @@ const projectdetails = [
         liveLink : 'https://urlshortner-2gp.pages.dev/',
         bannerLink :'https://ik.imagekit.io/ansonsaverdsouza/Screenshot%202024-09-16%20212500.png?updatedAt=1726502274433',
     },
+    
 
 ];
 
